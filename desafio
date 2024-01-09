@@ -1,18 +1,23 @@
-if xp < 1000:
-    nivel = "Ferro"
-elif 1001 <= xp <= 2000:
-    nivel = "Bronze"
-elif 2001 <= xp <= 5000:
-    nivel = "Prata"
-elif 5001 <= xp <= 7000:
-    nivel = "Ouro"
-elif 7001 <= xp <= 8000:
-    nivel = "Platina"
-elif 8001 <= xp <= 9000:
-    nivel = "Ascendente"
-elif 9001 <= xp <= 10000:
-    nivel = "Imortal"
-else:
-    nivel = "Radiante"
+const nome = Herói
+const xp = 10000
 
-print(f"O Herói de nome {nome} está no nível de {nivel}")
+let contador = 1
+if(contador <= 1000){
+    console.log(nivel = "Ferro")
+} else if(contador <= 2000){
+    console.log(nivel = "Bronze")
+} else if(contador <= 5000){
+    console.log(nivel = "Prata")
+} else if(contador <= 7000) {
+    console.log(nivel = "Ouro")
+} else if(contador <= 8000) {
+    console.log(nivel = "Platina") 
+} else if(contador <= 9000) {
+    console.log(nivel = "Ascendente") 
+} else if(contador <= 10000) {
+    console.log(nivel = "Imortal")
+} else if (contador <= 10001) {
+    console.log(nivel = "Radiante")
+}
+
+
