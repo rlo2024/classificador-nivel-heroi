@@ -1,7 +1,3 @@
-nome = input("Digite o nome do herói: ")
-xp = int(input("Digite a quantidade de experiência (XP) do herói: 
-
-
 if xp < 1000:
     nivel = "Ferro"
 elif 1001 <= xp <= 2000:
